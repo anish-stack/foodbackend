@@ -52,7 +52,7 @@ exports.createOrder = catchAsyncErrors(async (req, res) => {
     const payload = {
       email: user.email, // Assuming you have an email field in your User model
       subject: "Order Confirmation",
-      message: `Thank you for your order. Here are your ordered items:<br>${formattedOrderItems}`,
+      message: `Thank you for your order. Our Team is Contact You In Next 24 Hours`,
       isHtml: true, // Specify that the email content is in HTML format
     };
 
